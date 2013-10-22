@@ -41,3 +41,7 @@ Colores Predeterminados
 'turquoise','green-sea','emerland','nephritis','peter-river','belize-hole','amethyst','wisteria','wet-asphalt','midnight-blue','sun-flower','orange','carrot','pumpkin','alizarin','pomegranate','clouds','silver','concrete','asbestos'
 
 Ver referencias en el demo en la parte superior
+
+Cualquier pregunta o sugerenica favor contactarme
+
+http://www.facebook.com/carlosfreelance
