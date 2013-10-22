@@ -3,6 +3,10 @@ Dar estilo a un botón input file para seleccionar un archivo no es tan sencillo
 
 Colores inspirados en http://flatuicolors.com/
 
+Demo
+
+http://htmlpreview.github.io/?https://github.com/carlosfreelance/Jquery-Flat-File-Input-Style/blob/master/index.html
+
 ¿Cómo usarlo?
 En la cabecera del fichero HTML hay que indicar dónde se encuentra la librería jQuery, el plugin y la hoja de estilos. Por ejemplo:
 
