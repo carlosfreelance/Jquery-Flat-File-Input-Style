@@ -14,14 +14,14 @@
     $.fn.flatfileinput = function( options ) {
  
         var settings = $.extend({
-           width   : '200px',
-			height	  :	'50px',
-			style : 'simple_flat_button',
-			color : 'turquoise',
+           width		: '200px',
+			height		: '50px',
+			style		: 'simple_flat_button',
+			color		: 'turquoise',
 			text		: 'Choose file',
-			cursor : 'pointer',
+			cursor		: 'pointer',
 			fontsize	: '22px',
-			textcolor : '#fff',
+			textcolor	: '#fff',
         }, options );
  		 
 		 
