@@ -1,0 +1,156 @@
+/* #inputy type style
+==================================================*/
+.simple_flat_button {
+}
+
+/* #round style
+==================================================*/
+.simple_flat_round {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+/* #color
+==================================================*/
+.turquoise {
+  background: #1ABC9C;
+}
+.turquoise:hover {
+  background: #1dd2af;
+}
+
+.green-sea {
+  background: #16A085;
+}
+.green-sea:hover {
+  background: #19b698;
+}
+
+.emerland {
+  background: #2ECC71;
+}
+.emerland:hover {
+  background: #40d47e;
+}
+
+.nephritis {
+  background: #27AE60;
+}
+.nephritis:hover {
+  background: #2cc36b;
+}
+
+.peter-river {
+  background: #3498DB;
+}
+.peter-river:hover {
+  background: #4aa3df;
+}
+
+
+.belize-hole {
+  background: #2980B9;
+}
+.belize-hole:hover {
+  background: #2e8ece;
+}
+
+.amethyst {
+  background: #9B59B6;
+}
+.amethyst:hover {
+  background: #a66bbe;
+}
+
+.wisteria {
+  background: #8E44AD;
+}
+.wisteria:hover {
+  background: #9b50ba;
+}
+
+.wet-asphalt {
+  background: #34495E;
+}
+.wet-asphalt:hover {
+  background: #3d566e;
+}
+
+.midnight-blue {
+  background: #2C3E50;
+}
+.midnight-blue:hover {
+  background: #354b60;
+}
+
+.sun-flower {
+  background: #F1C40F;
+}
+.sun-flower:hover {
+  background: #f2ca27;
+}
+
+.orange {
+  background: #F39C12;
+}
+.orange:hover {
+  background: #f4a62a;
+}
+
+.carrot {
+  background: #E67E22;
+}
+.carrot:hover {
+  background: #e98b39;
+}
+
+.pumpkin {
+  background: #D35400;
+}
+.pumpkin:hover {
+  background: #ec5e00;
+}
+
+.alizarin {
+  background: #E74C3C;
+}
+.alizarin:hover {
+  background: #ea6153;
+}
+
+.pomegranate {
+  background: #C0392B;
+}
+.pomegranate:hover {
+  background: #d14233;
+}
+
+.clouds {
+  background: #ECF0F1;
+  color: #bdc3c7;
+}
+.clouds:hover {
+  background: #fbfcfc;
+  color: #bdc3c7
+}
+
+.silver {
+  background: #BDC3C7;
+}
+.silver:hover {
+  background: #cbd0d3;
+}
+
+.concrete {
+  background: #95A5A6;
+}
+.concrete:hover {
+  background: #a3b1b2;
+}
+
+.asbestos {
+  background: #7F8C8D;
+}
+.asbestos:hover {
+  background: #8c9899;
+}
