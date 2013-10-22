@@ -9,17 +9,6 @@
  * http://www.opensource.org/licenses/MIT
  */
 
-/*
- * jQuery flat file input syle 1.0
- * https://github.com/carlosfreelance/Jquery-Flat-File-Input-Style
- *
- * Copyright 2013, Carlos Luis Lizano Medina
- * https://www.facebook.com/carlosfreeance
- *
- * Licensed under the MIT license:
- * http://www.opensource.org/licenses/MIT
- */
-
 (function(a) {
   a.fn.flatfileinput = function(d) {
     var e = a.extend({
