@@ -20,9 +20,9 @@
  * http://www.opensource.org/licenses/MIT
  */
 
-(function($) {
-  $.fn.flatfileinput = function(b) {
-    var c = $.extend({
+(function(a) {
+  a.fn.flatfileinput = function(d) {
+    var e = a.extend({
       width: "200px",
       height: "50px",
       style: "simple_flat_button",
@@ -31,18 +31,18 @@
       cursor: "pointer",
       fontsize: "22px",
       textcolor: "#fff"
-    }, b);
+    }, d);
     return this.each(function() {
-      var e = $("<div>").attr("class", c.style + " " + c.color).css({
-        width: c.width,
-        height: c.height,
+      var b = a("<div>").attr("class", e.style + " " + e.color).css({
+        width: e.width,
+        height: e.height,
         "text-align": "center",
-        "font-size": c.fontsize,
-        color: c.textcolor,
+        "font-size": e.fontsize,
+        color: e.textcolor,
         cursor: "pointer",
         "vertical-align": "middle"
       });
-      var d = $("<span>").text(c.text).css({
+      var c = a("<span>").text(e.text).css({
         width: "inherit",
         height: "inherit",
         "text-align": "center",
@@ -50,7 +50,7 @@
         cursor: "pointer",
         "vertical-align": "middle"
       });
-      $(this).css({
+      a(this).css({
         filter: "alpha(opacity=0)",
         opacity: "0",
         width: "inherit",
@@ -58,9 +58,9 @@
         position: "absolute",
         display: "block",
         border: "0",
-        cursor: c.cursor
-      }).wrap(e);
-      $("." + c.color).append(d)
+        cursor: e.cursor
+      }).wrap(b);
+      a("." + e.color).append(c)
     })
   }
 }(jQuery));
