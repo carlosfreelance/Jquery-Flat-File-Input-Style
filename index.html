@@ -1,10 +1,155 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Documento sin título</title>
-</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="http://getbootstrap.com/assets/ico/favicon.png">
 
-<body>
-</body>
+    <title>Jquery Flat File Input Style</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="http://getbootstrap.com/dist/css/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/theme.css" rel="stylesheet">
+    
+     <!-- Styles flat file input plugin -->
+    <link href="proyects/flatfileinput/css/flatfileinput.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src=".js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Bootstrap theme</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container theme-showcase">
+    
+    	<div class="row">
+       		<div class="col-sm-12">
+            <h3>Jquery flat file input styles</h3>
+               <p>
+               Dar estilo a un botón input file para seleccionar un archivo no es tan sencillo como puede ser hacerlo con cualquier otro tipo de botón. La razón es que los navegadores no lo permiten, así que cualquier intento de cambiar la fuente, el color, etc. no funcionará.
+               </p>
+               
+               <p>
+               Colores inspirados en <a href="http://flatuicolors.com/" target="_blank">http://flatuicolors.com/</a>
+               </p>
+       		</div>
+       </div>
+    
+    	<div class="row">
+        	<div class="col-sm-12" id="default_style">
+       		</div>  
+       </div>
+       
+       <div class="row">
+       		<div class="col-sm-12">
+            <h3>¿Cómo usarlo?</h3>
+            <p>En la cabecera del fichero HTML hay que indicar dónde se encuentra la librería jQuery, el plugin y la hoja de estilos. Por ejemplo:</p>			
+            <code>
+            &lt;script src="jquery.js" type="text/javascript"&gt;&lt;/script&gt <br>
+               &lt;script src="js/flatfileinput.js" type="text/javascript"&gt;&lt;/script&gt<br>
+               
+               &lt;link href="css/flatfileinput.css" rel="stylesheet"&gt
+            </code>
+
+           <p>Incluir dentro del body el input file</p>    
+           <code>
+           &lt;input type="file" class="file" name="file" /&gt
+           </code>    
+			<p>Una vez incluidas las librerías en la cabecera del fichero HTML, para que el plugin actúe hay que hacer la siguiente llamada:</p>
+            	<code>
+                $(selector).flatfileinput()
+               </code>
+           <p>Personalización</p>
+           	<code>
+            		$(selector).flatfileinput({<br>
+	                    width   : '250px',	// Ancho del boton por defecto 200px	<br>
+                        height	  :	'50px',		// alto del boton por defecto 50px<br>
+                        style : 'simple_flat_button',	// Estilo del boton por defecto simple_flat_button (simple_flat_button, simple_flat_round)<br>
+                        color : 'turquoise',	// Color por defecto turquoise		<br>
+                        text		: 'Choose file',	// Texto del boton<br>
+                        cursor : 'pointer',		<br>	// cursor del boton se puede usar los predeterminados en las propiedades css
+                        fontsize	: '22px',		<br>	// Tamaño del texto predeterminado 22px
+                        textcolor : '#fff',		<br>  	// Color del texto predeterminado #fff (Blanco)
+                  })
+            	</code>
+                <h3>Colores y estilos Disponibles</h3>
+                <p><strong>Estilos del Boton</strong></p>
+                <p>simple_flat_button, simple_flat_round</p>
+                <p><strong>Colores Predeterminados</strong></p>
+                <p>'turquoise','green-sea','emerland','nephritis','peter-river','belize-hole','amethyst','wisteria','wet-asphalt','midnight-blue','sun-flower','orange','carrot','pumpkin','alizarin','pomegranate','clouds','silver','concrete','asbestos'</p>
+                <p><strong>Ver referencias en el demo en la parte superior</strong></p>
+       		</div>
+       </div>
+
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.8.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="proyects/flatfileinput/js/flatfileinput.js"></script>
+    <script>
+	$(document).ready(function() {
+var colors = ['turquoise','green-sea','emerland','nephritis','peter-river','belize-hole','amethyst','wisteria','wet-asphalt','midnight-blue','sun-flower','orange','carrot','pumpkin','alizarin','pomegranate','clouds','silver','concrete','asbestos'];
+
+var i = 0;
+	while(i<colors.length){
+		$('#default_style').append("<div class='col-sm-3 grid'><input type='file' name='file'  id='"+colors[i]+"'/>"+colors[i]+"</div>")
+		$("#"+colors[i]+"").flatfileinput({
+			width   : '250px',
+			color : ""+colors[i]+"",
+			style : 'simple_flat_round',
+		})
+		i++	
+	}
+	
+	})
+		
+	</script>
+  </body>
 </html>
