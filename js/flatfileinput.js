@@ -1,6 +1,6 @@
 /*
  * jQuery flat file input syle 1.0
- * https://github.com/blueimp/jQuery-File-Upload
+ * https://github.com/carlosfreelance/Jquery-Flat-File-Input-Style
  *
  * Copyright 2013, Carlos Luis Lizano Medina
  * https://www.facebook.com/carlosfreeance
@@ -13,7 +13,6 @@
  
     $.fn.flatfileinput = function( options ) {
  
-        // This is the easiest way to have default options.
         var settings = $.extend({
            width   : '200px',
 			height	  :	'50px',
@@ -49,8 +48,7 @@
 										'cursor'	: 'pointer',
 										'vertical-align':'middle'
 									})
-			 
-		   // Greenify the collection based on the settings variable.
+
 			$(this).css({
 										'filter'  : 'alpha(opacity=0)',
 										'opacity' : '0',
@@ -66,10 +64,7 @@
 			$("." + settings.color).append(wrapper_text)
 			
     });
-		 
-       
-												
- 
+
     };
  
 }( jQuery ));
