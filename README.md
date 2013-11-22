@@ -45,3 +45,6 @@ Ver referencias en el demo en la parte superior
 Cualquier pregunta o sugerenica favor contactarme
 
 http://www.facebook.com/carlosfreelance
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/carlosfreelance/jquery-flat-file-input-style/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
